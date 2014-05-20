@@ -8,11 +8,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Nicolas Caresmel</a>
+          <a class="navbar-brand" href="/blog">Nicolas Caresmel</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Home</a></li>
+            <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>index.html">Accueil</a></li>
 	    <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>archive.html">Archives</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>${config.feed_file}">Flux RSS</a></li>
             <li><a href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>about.html">A propos</a></li>
@@ -31,6 +31,10 @@
             </li>
             -->
           </ul>
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="https://github.com/ncaresmel"><i class="fa fa-github"></i></a></li>
+		<li><a href="https://twitter.com/NicoCaresmel"><i class="fa fa-twitter"></i></a>
+	</ul>	
         </div><!--/.nav-collapse -->
       </div>
     </div>

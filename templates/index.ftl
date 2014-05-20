@@ -2,9 +2,9 @@
 	
 	<#include "menu.ftl">
 
-	<div class="page-header">
+	<!--<div class="page-header">
 		<h1>Blog</h1>
-	</div>
+	</div>-->
 	<#list posts as post>
   		<#if (post.status == "published")>
   			<a href="${post.uri}"><h1><#escape x as x?xml>${post.title}</#escape></h1></a>
